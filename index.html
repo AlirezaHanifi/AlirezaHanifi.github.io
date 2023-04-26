@@ -16,6 +16,7 @@
 	
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<script type="text/javascript" src="./assets/js/particle-network.min.js"></script>
 	
 	<title>Alireza Hanifi | Personal Blog</title>
 	<meta name="title" content="Alireza Hanifi's personal blog">
@@ -30,9 +31,6 @@
 			</a>
 			<nav class="navbar" data-navbar>
 				<div class="navbar-top">
-					<!-- <a href="#" class="logo">
-						<img src="./assets/images/logo-light.svg" width="64" height="24" alt="home">
-					</a> -->
 					<button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
 						<ion-icon name="close-outline" aria-hidden="true"></ion-icon>
 					</button>
@@ -89,7 +87,7 @@
 						</p>
 						<div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
 							<a href="#about" class="btn btn-primary">About Me</a>
-							<a href="./cv.html" class="btn btn-secondary" target="_blank">Download Résumé</a>
+							<a href="./cv.pdf" class="btn btn-secondary" target="_blank">Download Résumé</a>
 						</div>
 					</div>
 				</div>
@@ -154,7 +152,7 @@
 						<li data-reveal="bottom">
 							<div class="about-card">
 								<div class="card-icon">
-									<img src="./assets/images/skills-Data.svg" width="52" height="52" loading="lazy" alt="BI icon">
+									<img src="./assets/images/skills-Data.png" width="52" height="52" loading="lazy" alt="BI icon">
 								</div>
 								<h3 class="h4 card-title">Data Analytics</h3>
 								<p class="card-text">Data Analytics</p>
@@ -163,7 +161,7 @@
 						<li data-reveal="bottom" data-reveal-delay="0.25s">
 							<div class="about-card">
 								<div class="card-icon">
-									<img src="./assets/images/skills-Tech.svg" width="52" height="52" loading="lazy" alt="mobile design icon">
+									<img src="./assets/images/skills-Tech.png" width="52" height="52" loading="lazy" alt="mobile design icon">
 								</div>
 								<h3 class="h4 card-title">Technology & Programming</h3>
 								<p class="card-text">Technology & Programming</p>
@@ -172,7 +170,7 @@
 						<li data-reveal="bottom" data-reveal-delay="0.5s">
 							<div class="about-card">
 								<div class="card-icon">
-									<img src="./assets/images/skills-Product.svg" width="52" height="52" loading="lazy" alt="web development icon">
+									<img src="./assets/images/skills-Product.png" width="52" height="52" loading="lazy" alt="web development icon">
 								</div>
 								<h3 class="h4 card-title">Product Management</h3>
 								<p class="card-text">Product Management</p>
@@ -181,7 +179,7 @@
 						<li data-reveal="bottom" data-reveal-delay="0.75s">
 							<div class="about-card">
 								<div class="card-icon">
-									<img src="./assets/images/skills-Finance.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+									<img src="./assets/images/skills-Finance.png" width="52" height="52" loading="lazy" alt="web seo icon">
 								</div>
 								<h3 class="h4 card-title">Financial Management</h3>
 								<p class="card-text">Financial Management</p>
@@ -194,12 +192,12 @@
 			<!-- EXPERIENCES -->
 
 			<section class="section experience" id="experiences">
-				<div class="container">
+				<div class="container" data-reveal="top">
 					<h2 class="h2 section-title">Experiences</h2>
 					<p class="section-text">
 						My Career story in brief.
 					</p>
-					<div class="timeline">
+					<div class="timeline" data-reveal="bottom">
 
 						<div class="timeline-content">
 							<ul> 
@@ -326,64 +324,61 @@
 									</a>
 								</div>
 								<figure class="card-banner" data-reveal="right">
-									<img src="./assets/images/projects-InsightiFi.svg" width="650" height="370" loading="lazy" alt="Web Design" class="w-100">
+									<img src="./assets/images/projects-InsightiFi.svg" loading="lazy" alt="InsightiFi" class="w-100">
 								</figure>
 							</div>
 						</li>
 						<li>
 							<div class="project-card project-card-2" style="background-color: #f1f5fd">
 								<div class="card-content" data-reveal="right">
-									<p class=" card-tag" style="color: #3f78e0">Mobile Design</p>
-									<h3 class="h3 card-title">Budget App</h3>
+									<p class=" card-tag" style="color: #3f78e0">Data Science</p>
+									<h3 class="h3 card-title">Divar Housing Insights</h3>
 									<p class="card-text">
-									Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula
-									porta felis euismod semper. Fusce dapibus tellus cursus.
+										Visualize property prices in Tehran using JavaScript after crawling divar.ir with Python.
 									</p>
-									<a href="#" class="btn-text" style="color: #3f78e0">
+									<a href="https://github.com/AlirezaHanifi/Divar-Housing-Insights" target="_blank" class="btn-text" style="color: #3f78e0">
 										<span class="span">See Project</span>
 										<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
 									</a>
 								</div>
 								<figure class="card-banner" data-reveal="left">
-									<img src="./assets/images/projects-InsightiFi.svg" width="600" height="367" loading="lazy" alt="Web Design" class="w-100">
+									<img src="./assets/images/projects-Divar.png" loading="lazy" alt="Divar Housing Insights" class="w-100">
 								</figure>
 							</div>
 						</li>
 						<li>
 							<div class="project-card project-card-3" style="background-color: #f5faf7">
 								<div class="card-content" data-reveal="left">
-									<p class=" card-tag" style="color: #7cb798">Web Design</p>
-									<h3 class="h3 card-title">Missio Theme</h3>
+									<p class=" card-tag" style="color: #7cb798">Data Science</p>
+									<h3 class="h3 card-title">Movies Frame by Frame</h3>
 									<p class="card-text">
-									Maecenas faucibus mollis interdum sed posuere porta consectetur cursus porta lobortis. Scelerisque
-									id ligula felis.
+										Extracting video frames and concatenate them using OpenCV in Python.
 									</p>
-									<a href="#" class="btn-text" style="color: #7cb798">
+									<a href="https://github.com/AlirezaHanifi/Movies-Frame-by-Frame" class="btn-text" style="color: #7cb798">
 										<span class="span">See Project</span>
 										<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
 									</a>
 								</div>
 								<figure class="card-banner" data-reveal="right">
-									<img src="./assets/images/projects-InsightiFi.svg" width="600" height="367" loading="lazy" alt="Web Design" class="w-100">
+									<img src="./assets/images/projects-Movies.png" loading="lazy" alt="Movies" class="w-100">
 								</figure>
 							</div>
 						</li>
 						<li>
 							<div class="project-card project-card-4" style="background-color: #fcf4f6">
 								<div class="card-content" data-reveal="left">
-									<p class=" card-tag" style="color: #d16b86">Mobile Design</p>
-									<h3 class="h3 card-title">Storage App</h3>
+									<p class=" card-tag" style="color: #d16b86">Product Management</p>
+									<h3 class="h3 card-title">Inspired</h3>
 									<p class="card-text">
-									Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula
-									porta felis euismod semper.
+										Read Inspired book in group and prepare summary in Google Slides.
 									</p>
-									<a href="#" class="btn-text" style="color: #d16b86">
+									<a href="https://docs.google.com/presentation/d/15c5mOffB_c5JEJ4YoTviTP475g_cKLyUouMecv_oJco/edit?usp=sharing" class="btn-text" style="color: #d16b86">
 										<span class="span">See Project</span>
 										<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
 									</a>
 								</div>
 								<figure class="card-banner" data-reveal="right">
-									<img src="./assets/images/projects-InsightiFi.svg" width="620" height="370" loading="lazy" alt="Mobile Design" class="w-100">
+									<img src="./assets/images/projects-Inspired.png" height="190" loading="lazy" alt="Inspired" class="w-100">
 								</figure>
 							</div>
 						</li>
@@ -398,7 +393,7 @@
 					<div class="contact-card">
 						<div class="contact-content" data-reveal="left">
 							<div class="card-icon">
-								<img src="./assets/images/icon-Email.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+								<img src="./assets/images/icon-Email.png" width="70" height="70" loading="lazy" alt="envelop icon">
 							</div>
 							<h2 class="h2 section-title">Let's get in touch!</h2>
 							<p class="section-text">

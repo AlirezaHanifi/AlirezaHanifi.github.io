@@ -1,7 +1,6 @@
 # Blog of Alireza Hanifi
 
-My Personal [Blog](https://AlirezaHanifi.github.io). Also, this website is inspired by "[Julia - Portfolio Website](https://github.com/codewithsadee/julia-portfolio)".
-
-Thanks to the following tools:
-- Convert cv.pdf to cv.html via [Convertio](https://convertio.co/).
-- Create a form via [Formspree](https://formspree.io/).
+This is my personal [Blog](https://AlirezaHanifi.github.io). Thanks to "[Julia - Portfolio Website](https://github.com/codewithsadee/julia-portfolio)" for inspiring this blog. Additionally, I used the following websites/products to create this blog:
+- **[Convertio](https://convertio.co/)**: Converting cv.pdf to cv.html.
+- **[Formspree](https://formspree.io/)**: Creating HTML Contact Form.
+- **[Icons8](https://icons8.com/)**: Providing icons.
